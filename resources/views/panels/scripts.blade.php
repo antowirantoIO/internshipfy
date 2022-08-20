@@ -19,3 +19,7 @@
 <!-- BEGIN: Page JS-->
 @yield('page-script')
 <!-- END: Page JS-->
+
+@stack('modals')
+@livewireScripts
+<script defer src="{{ asset(mix('vendors/js/alpinejs/alpine.js')) }}"></script>

@@ -62,10 +62,6 @@ mixAssetsDir('vendors/js/**/*.js', (src, dest) => mix.scripts(src, dest))
 mixAssetsDir('vendors/css/**/*.css', (src, dest) => mix.copy(src, dest))
 mixAssetsDir('vendors/**/**/images', (src, dest) => mix.copy(src, dest))
 mixAssetsDir('vendors/css/editors/quill/fonts/', (src, dest) => mix.copy(src, dest))
-mixAssetsDir('fonts', (src, dest) => mix.copy(src, dest))
-mixAssetsDir('fonts/**/**/*.css', (src, dest) => mix.copy(src, dest))
-mix.copyDirectory('resources/images', 'public/images')
-mix.copyDirectory('resources/data', 'public/data')
 
 mix
   .js('resources/js/core/app-menu.js', 'public/js/core')
