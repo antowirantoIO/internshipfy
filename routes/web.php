@@ -15,4 +15,4 @@ use App\Http\Controllers\DashboardController;
 */
 
 // Main Page Route
-Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
