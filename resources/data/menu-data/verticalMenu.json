@@ -10,19 +10,16 @@
         "routename": ""
       },
       {
-        "url": "ui/typography",
         "name": "Siswa",
         "icon": "users",
         "routename": ""
       },
       {
-        "url": "icons/feather",
         "name": "Pembimbing",
         "icon": "user-check",
         "routename": ""
       },
       {
-        "url": "icons/feather",
         "name": "Mitra DU/DI",
         "icon": "briefcase",
         "routename": ""
@@ -32,25 +29,21 @@
         "routename": ""
       },
       {
-        "url": "ui/typography",
         "name": "Jadwal Pelajaran",
         "icon": "book",
         "routename": ""
       },
       {
-        "url": "icons/feather",
         "name": "Catatan & Tugas",
         "icon": "edit-3",
         "routename": ""
       },
       {
-        "url": "icons/feather",
         "name": "Laporan PKL",
         "icon": "codepen",
         "routename": ""
       },
       {
-          "url": "icons/feather",
           "name": "Jurnal PKL",
           "icon": "book-open",
           "routename": "activity"
@@ -60,37 +53,31 @@
       "routename": ""
     },
     {
-      "url": "app/todo",
       "name": "Todo",
       "icon": "check-square",
       "routename": "apps.todo"
     },
     {
-      "url": "app/calendar",
       "name": "Calendar",
       "icon": "calendar",
       "routename": "apps.calendar"
     },
     {
-      "url": "app/kanban",
       "name": "Kanban",
       "icon": "grid",
       "routename": "apps.kanban"
     },
     {
-        "url": "app/bookmark",
         "name": "Bookmark",
         "icon": "bookmark",
         "routename": ""
     },
     {
-      "url": "app/file-manager",
       "name": "File Manager",
       "icon": "save",
       "routename": "apps.filemanager"
     },
     {
-        "url": "app/file-manager",
         "name": "Galery Photo",
         "icon": "camera",
         "routename": ""
@@ -100,10 +87,9 @@
       "routename": ""
     },
     {
-      "url": "form/layout",
       "name": "Whiteboard",
       "icon": "box",
-      "routename": ""
+      "routename": "productivity.whiteboard"
     },
     {
       "name": "Audio Relaxation",
@@ -111,22 +97,19 @@
       "routename": "",
       "submenu": [
         {
-          "url": "table/datatable/basic",
           "name": "Moodly",
           "icon": "circle",
-          "routename": ""
+          "routename": "productivity.moodly"
         },
         {
-          "url": "table/datatable/advance",
           "name": "Shhhnoise",
           "icon": "circle",
-          "routename": ""
+          "routename": "productivity.shhhnoise"
         },
         {
-            "url": "table/datatable/advance",
             "name": "Poolsuite",
             "icon": "circle",
-            "routename": ""
+            "routename": "productivity.poolsuite"
           }
       ]
     },
@@ -136,16 +119,14 @@
         "routename": "",
         "submenu": [
           {
-            "url": "table/datatable/basic",
             "name": "Pomofocus",
             "icon": "circle",
-            "routename": ""
+            "routename": "productivity.pomofocus"
           },
           {
-            "url": "table/datatable/advance",
             "name": "Lifeat.io",
             "icon": "circle",
-            "routename": ""
+            "routename": "productivity.lifeat"
           }
         ]
       },
@@ -155,10 +136,9 @@
         "routename": "",
         "submenu": [
           {
-            "url": "table/datatable/basic",
             "name": "Skyoffice",
             "icon": "circle",
-            "routename": ""
+            "routename": "productivity.skyoffice"
           }
         ]
       },
@@ -167,13 +147,11 @@
         "routename": ""
       },
       {
-        "url": "form/layout",
         "name": "Journal",
         "icon": "book-open",
         "routename": ""
       },
       {
-        "url": "form/layout",
         "name": "E-Book",
         "icon": "book",
         "routename": ""

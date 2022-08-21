@@ -5,6 +5,7 @@
 <script src="{{asset(mix('vendors/js/ui/jquery.sticky.js'))}}"></script>
 @yield('vendor-script')
 <!-- END: Page Vendor JS-->
+<script src="{{ asset(mix('vendors/js/extensions/sweetalert2.all.min.js')) }}"></script>
 <!-- BEGIN: Theme JS-->
 <script src="{{ asset(mix('js/core/app-menu.js')) }}"></script>
 <script src="{{ asset(mix('js/core/app.js')) }}"></script>

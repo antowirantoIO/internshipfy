@@ -8,6 +8,9 @@
 @yield('vendor-style')
 <!-- END: Vendor CSS-->
 
+<link rel="stylesheet" href="{{ asset(mix('vendors/css/extensions/sweetalert2.min.css')) }}">
+<link rel="stylesheet" href="{{asset(mix('css/base/plugins/extensions/ext-component-sweet-alerts.css'))}}">
+
 <!-- BEGIN: Theme CSS-->
 <link rel="stylesheet" href="{{ asset(mix('css/core.css')) }}" />
 <link rel="stylesheet" href="{{ asset(mix('css/base/themes/dark-layout.css')) }}" />

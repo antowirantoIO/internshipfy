@@ -13,7 +13,7 @@ class StoreActivityRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,12 @@ class StoreActivityRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'activity_title' => 'required',
+            'divisi' => 'required',
+            'description' => 'required',
+            'date' => 'required|date',
+            'start_time' => 'required',
+            'end_time' => 'required',
         ];
     }
 }

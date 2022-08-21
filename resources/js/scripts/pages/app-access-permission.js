@@ -172,6 +172,7 @@ $(function () {
       },
       initComplete: function () {
         // Adding role filter once table initialized
+        console.log('initComplete');
         this.api()
           .columns(3)
           .every(function () {

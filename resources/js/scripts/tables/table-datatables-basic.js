@@ -113,6 +113,7 @@ $(function () {
           targets: -2,
           render: function (data, type, full, meta) {
             var $_status = full['status'];
+            var $is_review = full['is_review'];
             var $status = {
               'approved': { title: 'Approve', class: ' badge-light-success' },
               'pending': { title: 'Pending', class: ' badge-light-info' },
@@ -121,6 +122,9 @@ $(function () {
             };
             if (typeof $status[$_status] === 'undefined') {
               return data;
+            }
+            if($is_review == 0){
+                return '<span class="badge badge-pill badge-light-primary">Not Send</span>';
             }
             return (
               '<span class="badge rounded-pill ' +
@@ -137,7 +141,7 @@ $(function () {
           title: 'Actions',
           orderable: false,
           render: function (data, type, full, meta) {
-            var $id = full['id'];
+            var $id = full['idencrypt'];
             return (
               '<div class="d-inline-flex">' +
               '<a class="pe-1 dropdown-toggle hide-arrow text-primary" data-bs-toggle="dropdown">' +
@@ -155,7 +159,7 @@ $(function () {
               'Delete</a>' +
               '</div>' +
               '</div>' +
-              '<a href="/activity/send/' + $id + '"class="item-edit">' +
+              '<a href="/activity/send/' + $id + '"class="item-edit send_activity">' +
               feather.icons['send'].toSvg({ class: 'font-small-4' }) +
               '</a>' +
               '<a href="/activity/edit/' + $id + '"style="padding-left: 10px;" class="item-edit">' +
@@ -214,6 +218,48 @@ $(function () {
             }, 50);
           }
         },
+        {
+            extend: 'collection',
+            className: 'btn btn-outline-secondary dropdown-toggle me-2',
+            text: feather.icons['airplay'].toSvg({ class: 'font-small-4 me-50' }) + 'Status',
+            buttons: [
+              {
+                text: feather.icons['check-circle'].toSvg({ class: 'font-small-4 me-50' }) + 'Aproved',
+                className: 'dropdown-item',
+                action: function (e, dt, node, config) {
+                    dt.columns(6).search('Approve').draw();
+                }
+              },
+              {
+                text: feather.icons['file-text'].toSvg({ class: 'font-small-4 me-50' }) + 'Pending',
+                className: 'dropdown-item',
+                action: function (e, dt, node, config) {
+                    dt.columns(6).search('Pending').draw();
+                }
+              },
+              {
+                text: feather.icons['alert-triangle'].toSvg({ class: 'font-small-4 me-50' }) + 'Revision',
+                className: 'dropdown-item',
+                action: function (e, dt, node, config) {
+                    dt.columns(6).search('Revision').draw();
+                }
+              },
+              {
+                text: feather.icons['x-square'].toSvg({ class: 'font-small-4 me-50' }) + 'Rejected',
+                className: 'dropdown-item',
+                action: function (e, dt, node, config) {
+                    dt.columns(6).search('Rejected').draw();
+                }
+              },
+            ],
+            init: function (api, node, config) {
+              $(node).removeClass('btn-secondary');
+              $(node).parent().removeClass('btn-group');
+              setTimeout(function () {
+                $(node).closest('.dt-buttons').removeClass('btn-group').addClass('d-inline-flex');
+              }, 50);
+            }
+          },
         {
           text: feather.icons['plus'].toSvg({ class: 'me-50 font-small-4' }) + 'Add New Record',
           className: 'create-new btn btn-primary',
