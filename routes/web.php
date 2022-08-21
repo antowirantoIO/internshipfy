@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AppsController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ActivityController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,3 +38,11 @@ Route::get('/team', function () {
 Route::get('/kontak', function () {
     return view('frontend.contact');
 });
+
+Route::get('/apps/calndar', [AppsController::class, 'calendarApp'])->name('apps.calendar');
+Route::get('/apps/todo', [AppsController::class, 'todoApp'])->name('apps.todo');
+Route::get('/apps/file-manager', [AppsController::class, 'file_manager'])->name('apps.filemanager');
+Route::get('/apps/kanban', [AppsController::class, 'kanbanApp'])->name('apps.kanban');
+
+Route::get('/activity', [ActivityController::class, 'index'])->name('activity');
+Route::get('/activity/data', [ActivityController::class, 'getdata'])->name('activity');

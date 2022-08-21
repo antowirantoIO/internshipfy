@@ -1,6 +1,6 @@
 @extends('layouts.frontend.minor')
 
-@section('title', 'Kontak Kami — Collegetivity')
+@section('title', 'Kontak Kami — Internshipfy')
 @section('content')
 
 <header class="template-header navbar-left absolute-header nav-primary-5 submenu-primary-5 sticky-header">
@@ -106,8 +106,8 @@
             <div class="about-us">
                 <h5 class="canvas-widget-title">Tentang Kami</h5>
                 <p>
-                    Collegetivity adalah aplikasi yang membantu dunia perkuliahan mahasiswa mulai dari mengorganisasi
-                    pelajaran, tugas dan jadwal serta resources yang membantu para mahasiswa.
+                    Internshipfy adalah aplikasi yang membantu dunia perPKL dan Produktifitas an Pelajar mulai dari mengorganisasi
+                    pelajaran, tugas dan jadwal serta resources yang membantu para Pelajar.
                 </p>
             </div>
             <div class="contact-us">
@@ -119,8 +119,8 @@
                     </li>
                     <li>
                         <i class="far fa-envelope-open"></i>
-                        <a href="mailto:collegetivity@gmail.com">collegetivity@gmail.com</a>
-                        <a href="#" target="_blank">collegetivity.herokuapp.com</a>
+                        <a href="mailto:Internshipfy@gmail.com">Internshipfy@gmail.com</a>
+                        <a href="#" target="_blank">Internshipfy.herokuapp.com</a>
                     </li>
                     <li>
                         <i class="far fa-phone"></i>
@@ -184,8 +184,8 @@
                         </div>
                         <div class="info-body">
                             <h5 class="title">Alamat Email</h5>
-                            <p><a href="mailto:apps.collegetivity@gmail.com">apps.collegetivity@gmail.com</a></p>
-                            <p><a href="collegetivity.herokuapp.com" target="_blank">collegetivity.herokuapp.com</a></p>
+                            <p><a href="mailto:apps.Internshipfy@gmail.com">apps.Internshipfy@gmail.com</a></p>
+                            <p><a href="Internshipfy.herokuapp.com" target="_blank">Internshipfy.herokuapp.com</a></p>
                         </div>
                     </div>
                     <div class="contact-info-box wow fadeInUp" data-wow-delay="0.5s">
@@ -254,7 +254,7 @@
                 <div class="cta-content text-center">
                     <div class="common-heading heading-white m-b-65">
                         <span class="tagline">Tunggu Apa Lagi?</span>
-                        <h2 class="title">Segera Daftar dan Bergabung Bersama Collegetivity</h2>
+                        <h2 class="title">Segera Daftar dan Bergabung Bersama Internshipfy</h2>
                     </div>
 
                     <a href="{{url('/register')}}" class="template-btn white-bg bordered-btn">Daftar Sekarang <i

@@ -1,6 +1,6 @@
 @extends('layouts.frontend.minor')
 
-@section('title', 'Tentang Kami — Collegetivity')
+@section('title', 'Tentang Kami — Internshipfy')
 @section('content')
 
 <header class="template-header navbar-left absolute-header nav-primary-5 submenu-primary-5 sticky-header">
@@ -106,8 +106,8 @@
             <div class="about-us">
                 <h5 class="canvas-widget-title">Tentang Kami</h5>
                 <p>
-                    Collegetivity adalah aplikasi yang membantu dunia perkuliahan mahasiswa mulai dari mengorganisasi
-                    pelajaran, tugas dan jadwal serta resources yang membantu para mahasiswa.
+                    Internshipfy adalah aplikasi yang membantu dunia perPKL dan Produktifitas an Pelajar mulai dari mengorganisasi
+                    pelajaran, tugas dan jadwal serta resources yang membantu para Pelajar.
                 </p>
             </div>
             <div class="contact-us">
@@ -119,8 +119,8 @@
                     </li>
                     <li>
                         <i class="far fa-envelope-open"></i>
-                        <a href="mailto:collegetivity@gmail.com">collegetivity@gmail.com</a>
-                        <a href="#" target="_blank">collegetivity.herokuapp.com</a>
+                        <a href="mailto:Internshipfy@gmail.com">Internshipfy@gmail.com</a>
+                        <a href="#" target="_blank">Internshipfy.herokuapp.com</a>
                     </li>
                     <li>
                         <i class="far fa-phone"></i>
@@ -188,12 +188,12 @@
             <div class="col-xl-5 col-lg-6 col-md-9">
                 <div class="about-us-content">
                     <div class="common-heading tagline-boxed m-b-30">
-                        <span class="tagline">🤷🏻‍♀️ • Apa itu Collegetivity?</span>
-                        <h2 class="title">Menjadi Solusi Bagi Mahasiswa di Masa Pandemi <span
+                        <span class="tagline">🤷🏻‍♀️ • Apa itu Internshipfy?</span>
+                        <h2 class="title">Menjadi Solusi Bagi Pelajar di Masa Pandemi <span
                                 class="font-weight-normal small">⚡</span></h2>
                     </div>
                     <p>
-                        Collegetivity dibuat untuk membantu para mahasiswa agar tetap terorganisir, terjadwal dan
+                        Internshipfy dibuat untuk membantu para Pelajar agar tetap terorganisir, terjadwal dan
                         produktif pada masa pandemi yang membuat kita harus melakukan segalanya secara online
                     </p>
                     <a href="{{url('/register')}}" class="template-btn bordered-btn m-t-40">Bergabung Sekarang <i
@@ -212,7 +212,7 @@
             <div class="col-xl-7 col-lg-9">
                 <div class="common-heading tagline-boxed text-center m-b-30">
                     <span class="tagline">🌟 • Fitur Populer</span>
-                    <h2 class="title">Buat Dunia dan Masa Kuliahmu Menjadi Menyenangkan</h2>
+                    <h2 class="title">Buat Dunia dan Masa PKL dan Produktifitas mu Menjadi Menyenangkan</h2>
                 </div>
             </div>
         </div>
@@ -225,7 +225,7 @@
                     </div>
                     <h4 class="title">Atur Jadwalmu</h4>
                     <p>
-                        Atur jadwal kuliahmu dengan mudah di Collegetivity
+                        Atur jadwal PKL dan Produktifitas mu dengan mudah di Internshipfy
                     </p>
                 </div>
             </div>
@@ -236,7 +236,7 @@
                     </div>
                     <h4 class="title">Kelola Datamu</h4>
                     <p>
-                        Kelola semua data akademikmu agar terorganisir di Collegetivity
+                        Kelola semua data akademikmu agar terorganisir di Internshipfy
                     </p>
                 </div>
             </div>
@@ -247,7 +247,7 @@
                     </div>
                     <h4 class="title">Simpan Tugasmu</h4>
                     <p>
-                        Simpan semua tugasmu tanpa perlu takut hilang di Collegetivity
+                        Simpan semua tugasmu tanpa perlu takut hilang di Internshipfy
                     </p>
                 </div>
             </div>
@@ -258,7 +258,7 @@
                     </div>
                     <h4 class="title">Resources Terbaik</h4>
                     <p>
-                        Nikmati banyak website dan tools penunjang perkuliahanmu
+                        Nikmati banyak website dan tools penunjang perPKL dan Produktifitas anmu
                     </p>
                 </div>
             </div>
@@ -273,8 +273,8 @@
         <div class="row justify-content-center">
             <div class="col-xl-5 col-lg-6">
                 <div class="common-heading tagline-boxed text-center m-b-60">
-                    <span class="tagline">👨🏻‍💻 • Orang Dibalik Collegetivity</span>
-                    <h2 class="title">Mengenal Lebih Dekat Pembuat Collegetivity</h2>
+                    <span class="tagline">👨🏻‍💻 • Orang Dibalik Internshipfy</span>
+                    <h2 class="title">Mengenal Lebih Dekat Pembuat Internshipfy</h2>
                 </div>
             </div>
         </div>
@@ -327,7 +327,7 @@
                 <div class="cta-content text-center">
                     <div class="common-heading heading-white m-b-65">
                         <span class="tagline">Tunggu Apa Lagi?</span>
-                        <h2 class="title">Segera Daftar dan Bergabung Bersama Collegetivity</h2>
+                        <h2 class="title">Segera Daftar dan Bergabung Bersama Internshipfy</h2>
                     </div>
 
                     <a href="{{url('/register')}}" class="template-btn white-bg bordered-btn">Daftar Sekarang <i

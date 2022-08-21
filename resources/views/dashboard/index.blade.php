@@ -1,7 +1,7 @@
 
 @extends('layouts/contentLayoutMaster')
 
-@section('title', 'Dashboard Ecommerce')
+@section('title', 'Dashboard')
 
 @section('vendor-style')
   {{-- vendor css files --}}

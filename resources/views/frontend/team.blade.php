@@ -1,6 +1,6 @@
 @extends('layouts.frontend.minor')
 
-@section('title', 'Team — Collegetivity')
+@section('title', 'Team — Internshipfy')
 @section('content')
 
 <!--====== Start Header ======-->
@@ -212,11 +212,11 @@
                 <div class="skill-text-block p-r-70 p-l-70 p-r-lg-30 p-l-lg-40 p-l-md-0 p-r-md-0">
                     <div class="common-heading tagline-boxed m-b-30">
                         <span class="tagline">Perkenalkan Team</span>
-                        <h2 class="title">Mahasiswa Baru Informatika yang Ingin Membantu Mahasiswa</h2>
+                        <h2 class="title">Pelajar Baru Informatika yang Ingin Membantu Pelajar</h2>
                     </div>
 
                     <p>
-                        Kami harap dengan adanya collegetivity ini dapat membantu para mahasiswa dari universitas
+                        Kami harap dengan adanya Internshipfy ini dapat membantu para Pelajar dari universitas
                         manapun maupun dari semester apapun agar tetap produktif di masa pandemi ini
                     </p>
                 </div>
@@ -232,7 +232,7 @@
         <div class="row justify-content-center">
             <div class="col-xl-5 col-lg-6">
                 <div class="common-heading tagline-boxed text-center m-b-60">
-                    <span class="tagline">Dibalik Collegetivity</span>
+                    <span class="tagline">Dibalik Internshipfy</span>
                     <h2 class="title">Kami Mempunyai Team Hebat</h2>
                 </div>
             </div>

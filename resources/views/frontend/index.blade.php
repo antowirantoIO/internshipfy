@@ -1,6 +1,6 @@
 @extends('layouts.frontend.master')
 
-@section('title', 'Collegetivity — Aplikasi yang Membantu Dunia Perkuliahanmu!')
+@section('title', 'Internshipfy — Aplikasi yang Membantu Dunia PKL dan Produktifitas mu!')
 @section('content')
 
 <div class="page-wrapper">
@@ -11,13 +11,13 @@
                 <span class="title-tag wow fadeInUp mb-3" data-wow-delay="0.2s"
                     style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                     <span class="badge rounded-pill bg-primary py-2 px-3 text-white">
-                        <span class="font-weight-normal">📢</span>• Collegetivity hadir dalam versi beta!
+                        <span class="font-weight-normal">📢</span>• Internshipfy hadir dalam versi beta!
                     </span>
                 </span>
-                <h3 class="hero-title wow fadeInLeft" data-wow-delay="0.2s">Website yang membantu dunia perkuliahanmu!
+                <h3 class="hero-title wow fadeInLeft" data-wow-delay="0.2s">Website yang membantu dunia PKL dan Produktifitas mu!
                 </h3>
                 <p class="wow fadeInUp" data-wow-delay="0.3s">
-                    🎓 • Collegetivity hadir untuk membantu kalian para mahasiswa agar lebih produktif, terorganisir dan
+                    🎓 • Internshipfy hadir untuk membantu kalian para Pelajar agar lebih produktif, terorganisir dan
                     pekerjaanmu lebih mudah!
                 </p>
                 <a href="{{url('/register')}}" class="template-btn primary-bg-5 wow fadeInUp" data-wow-delay="0.4s">
@@ -25,7 +25,7 @@
                 </a>
 
                 <span class="notice wow fadeInUp" data-wow-delay="0.5s">
-                    <img src="{{url('landio/assets/img/hero/notice-icon.png')}}" alt="Image"> Collegetivity bisa kalian
+                    <img src="{{url('landio/assets/img/hero/notice-icon.png')}}" alt="Image"> Internshipfy bisa kalian
                     akses dan gunakan secara gratis lho!
                 </span>
             </div>
@@ -42,7 +42,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10">
                     <div class="common-heading text-center heading-white m-b-30">
-                        <h2 class="title">Pandemi membuat kita harus melakukan semuanya secara online, dengan
+                        <h2 class="title">Digitalisasi membuat kita harus melakukan semuanya secara online, dengan
                             kami kamu
                             bisa lebih produktif</h2>
                     </div>
@@ -57,8 +57,21 @@
                         </div>
                         <h4 class="title"><a href="#">Buat Tugas & Jadwalmu Terorganisir</a></h4>
                         <p>
-                            Collegetivity adalah tempat kamu mengatur semua data akademikmu, dilengkapi fitur jadwal
+                            Internshipfy adalah tempat kamu mengatur semua data akademikmu, dilengkapi fitur jadwal
                             pelajaran, catatan pelajaran dan lain lain yang membuatmu terorganisir
+                        </p>
+                        <a href="{{url('/fitur')}}" class="box-btn">Selengkapnya <i class="far fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-10 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="iconic-box box-version-white color-v3 m-t-50">
+                        <div class="icon">
+                            <i class="far fa-book"></i>
+                        </div>
+                        <h4 class="title"><a href="#">Simpan Laporan Kegiatan PKL kamu</a></h4>
+                        <p>
+                            Kamu bisa menyimpan laporan kegiatan PKLmu secara online tanpa ribet tulis manual dan langsung terlihat pembimbing,
+                            dan kamu bisa melihatnya di dashboardmu
                         </p>
                         <a href="{{url('/fitur')}}" class="box-btn">Selengkapnya <i class="far fa-arrow-right"></i></a>
                     </div>
@@ -70,23 +83,10 @@
                         </div>
                         <h4 class="title"><a href="#">Simpan File Tugas & Akademikmu</a></h4>
                         <p>
-                            Jangan takut kalau file tugas atau file yang berkaitan dengan kuliahmu hilang, dengan
-                            collegetivity kamu bisa dengan aman menyimpan file file tersebut
+                            Jangan takut kalau file tugas atau file yang berkaitan dengan PKL dan Produktifitas mu hilang, dengan
+                            Internshipfy kamu bisa dengan aman menyimpan file file tersebut
                         </p>
                         <a href="{{url('/fitur')}}" class="box-btn">Selengkapnya <i class="far fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-10 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="iconic-box box-version-white color-v3 m-t-50">
-                        <div class="icon">
-                            <i class="far fa-bookmark"></i>
-                        </div>
-                        <h4 class="title"><a href="{{url('/fitur')}}">Banyak Resources yang Membantu</a></h4>
-                        <p>
-                            Disini juga kami menyediakan banyak resources mulai dari website atau thread yang bakal
-                            membantu kamu menjadi lebih produktif dari sebelumnya
-                        </p>
-                        <a href="#" class="box-btn">Selengkapnya <i class="far fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@
                     <div class="software-text-block p-l-50 p-l-lg-30 p-l-md-0">
                         <div class="common-heading m-b-40">
                             <span class="tagline color-primary-5">✨ • Tujuan & Manfaat</span>
-                            <h2 class="title">Atur semua dunia dan data perkuliahanmu</h2>
+                            <h2 class="title">Atur semua dunia PKL dan Produktifitas mu</h2>
                         </div>
                         <p>
                             Kamu ga usah ribet buat ganti tab dari berbagai aplikasi cuma buat jadwal, bikin catatan
@@ -128,8 +128,8 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <div class="common-heading text-center m-b-65">
-                            <span class="tagline color-primary-5">🤔 • Ada apa aja sih di Collegetivity?</span>
-                            <h2 class="title">Solusi Kece & Ampuh Bagi Para Mahasiswa Waktu Kuliah <span
+                            <span class="tagline color-primary-5">🤔 • Ada apa aja sih di Internshipfy?</span>
+                            <h2 class="title">Solusi Kece & Ampuh Bagi Para Pelajar Waktu PKL dan Produktifitas mu!  <span
                                     class="font-weight-normal small">🔥</span></h2>
                         </div>
                     </div>
@@ -154,6 +154,11 @@
                             </a>
                         </li>
                         <li class="nav-item" role="presentation">
+                            <a class="nav-link" data-toggle="tab" href="#tabItem7" role="tab">
+                                <i class="far fa-chalkboard-teacher"></i> Laporan PKL
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
                             <a class="nav-link" data-toggle="tab" href="#tabItem4" role="tab">
                                 <i class="far fa-video"></i> Virtual Meeting
                             </a>
@@ -166,11 +171,6 @@
                         <li class="nav-item" role="presentation">
                             <a class="nav-link" data-toggle="tab" href="#tabItem6" role="tab">
                                 <i class="far fa-check-square"></i> Todolist
-                            </a>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <a class="nav-link" data-toggle="tab" href="#tabItem7" role="tab">
-                                <i class="far fa-chalkboard-teacher"></i> LifeAt
                             </a>
                         </li>
                         <li class="nav-item" role="presentation">
@@ -249,7 +249,7 @@
                     <div class="cta-content text-center">
                         <div class="common-heading heading-white m-b-65">
                             <span class="tagline">Tunggu Apa Lagi?</span>
-                            <h2 class="title">Segera Daftar dan Bergabung Bersama Collegetivity</h2>
+                            <h2 class="title">Segera Daftar dan Bergabung Bersama Internshipfy</h2>
                         </div>
 
                         <a href="{{url('/register')}}" class="template-btn white-bg bordered-btn">Daftar Sekarang <i

@@ -1,6 +1,6 @@
 @extends('layouts.frontend.minor')
 
-@section('title', 'Fitur Aplikasi — Collegetivity')
+@section('title', 'Fitur Aplikasi — Internshipfy')
 @section('content')
 
 <header class="template-header navbar-left absolute-header nav-primary-5 submenu-primary-5 sticky-header">
@@ -106,8 +106,8 @@
             <div class="about-us">
                 <h5 class="canvas-widget-title">Tentang Kami</h5>
                 <p>
-                    Collegetivity adalah aplikasi yang membantu dunia perkuliahan mahasiswa mulai dari mengorganisasi
-                    pelajaran, tugas dan jadwal serta resources yang membantu para mahasiswa.
+                    Internshipfy adalah aplikasi yang membantu dunia perPKL dan Produktifitas an Pelajar mulai dari mengorganisasi
+                    pelajaran, tugas dan jadwal serta resources yang membantu para Pelajar.
                 </p>
             </div>
             <div class="contact-us">
@@ -119,8 +119,8 @@
                     </li>
                     <li>
                         <i class="far fa-envelope-open"></i>
-                        <a href="mailto:collegetivity@gmail.com">collegetivity@gmail.com</a>
-                        <a href="#" target="_blank">collegetivity.herokuapp.com</a>
+                        <a href="mailto:Internshipfy@gmail.com">Internshipfy@gmail.com</a>
+                        <a href="#" target="_blank">Internshipfy.herokuapp.com</a>
                     </li>
                     <li>
                         <i class="far fa-phone"></i>
@@ -170,13 +170,13 @@
             <div class="col-xl-8">
                 <div class="about-us-content">
                     <div class="common-heading tagline-boxed m-b-30">
-                        <span class="tagline">⚡ • Fitur Aplikasi di Collegetivity</span>
+                        <span class="tagline">⚡ • Fitur Aplikasi di Internshipfy</span>
                         <h2 class="title">Fitur Buat Kamu yang Gak Suka Diatur Karena Kamu Sendiri yang Ngatur<span
                                 class="font-weight-normal small">🐱‍🏍</span></h2>
                     </div>
                     <p>
-                        Fitur yang ada di Collegetivity disediakan All-in-one buat kamu yang gak mau ribet ganti tab,
-                        ganti layanan dan harus ganti akun cuma buat ngurusin data kuliah. Dengan kami, kamu bisa
+                        Fitur yang ada di Internshipfy disediakan All-in-one buat kamu yang gak mau ribet ganti tab,
+                        ganti layanan dan harus ganti akun cuma buat ngurusin data PKL dan Produktifitas . Dengan kami, kamu bisa
                         lakukan itu di satu tempat
                     </p>
                     <a href="{{url('/register')}}" class="template-btn bordered-btn m-t-40">Bergabung Sekarang <i
@@ -195,8 +195,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="common-heading text-center m-b-65">
-                        <span class="tagline color-primary-5">🤔 • Ada apa aja sih di Collegetivity?</span>
-                        <h2 class="title">Solusi Kece & Ampuh Bagi Para Mahasiswa Waktu Kuliah <span
+                        <span class="tagline color-primary-5">🤔 • Ada apa aja sih di Internshipfy?</span>
+                        <h2 class="title">Solusi Kece & Ampuh Bagi Para Pelajar Waktu PKL dan Produktifitas  <span
                                 class="font-weight-normal small">🔥</span></h2>
                     </div>
                 </div>
@@ -313,7 +313,7 @@
                 <div class="cta-content text-center">
                     <div class="common-heading heading-white m-b-65">
                         <span class="tagline">Tunggu Apa Lagi?</span>
-                        <h2 class="title">Segera Daftar dan Bergabung Bersama Collegetivity</h2>
+                        <h2 class="title">Segera Daftar dan Bergabung Bersama Internshipfy</h2>
                     </div>
 
                     <a href="{{url('/register')}}" class="template-btn white-bg bordered-btn">Daftar Sekarang <i

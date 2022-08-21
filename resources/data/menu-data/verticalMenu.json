@@ -3,181 +3,180 @@
     {
       "name": "Dashboards",
       "icon": "home",
-      "slug": "dashboard",
-      "url": "/"
+      "routename": "dashboard"
     },
     {
         "navheader": "Kelola Data Master",
-        "slug": ""
+        "routename": ""
       },
       {
         "url": "ui/typography",
         "name": "Siswa",
         "icon": "users",
-        "slug": "ui-typography"
+        "routename": ""
       },
       {
         "url": "icons/feather",
         "name": "Pembimbing",
         "icon": "user-check",
-        "slug": "icons-feather"
+        "routename": ""
       },
       {
         "url": "icons/feather",
         "name": "Mitra DU/DI",
         "icon": "briefcase",
-        "slug": "icons-feather"
+        "routename": ""
       },
     {
         "navheader": "Kelola Data Akademik",
-        "slug": ""
+        "routename": ""
       },
       {
         "url": "ui/typography",
         "name": "Jadwal Pelajaran",
         "icon": "book",
-        "slug": "ui-typography"
+        "routename": ""
       },
       {
         "url": "icons/feather",
         "name": "Catatan & Tugas",
         "icon": "edit-3",
-        "slug": "icons-feather"
+        "routename": ""
       },
       {
         "url": "icons/feather",
         "name": "Laporan PKL",
         "icon": "codepen",
-        "slug": "icons-feather"
+        "routename": ""
       },
       {
           "url": "icons/feather",
           "name": "Jurnal PKL",
           "icon": "book-open",
-          "slug": "icons-feather"
+          "routename": "activity"
       },
     {
       "navheader": "Kelola Tools",
-      "slug": ""
+      "routename": ""
     },
     {
       "url": "app/todo",
       "name": "Todo",
       "icon": "check-square",
-      "slug": "app-todo"
+      "routename": "apps.todo"
     },
     {
       "url": "app/calendar",
       "name": "Calendar",
       "icon": "calendar",
-      "slug": "app-calendar"
+      "routename": "apps.calendar"
     },
     {
       "url": "app/kanban",
       "name": "Kanban",
       "icon": "grid",
-      "slug": "app-kanban"
+      "routename": "apps.kanban"
     },
     {
         "url": "app/bookmark",
         "name": "Bookmark",
         "icon": "bookmark",
-        "slug": "app-bookmark"
+        "routename": ""
     },
     {
       "url": "app/file-manager",
       "name": "File Manager",
       "icon": "save",
-      "slug": "app-file-manager"
+      "routename": "apps.filemanager"
     },
     {
         "url": "app/file-manager",
         "name": "Galery Photo",
         "icon": "camera",
-        "slug": "app-file-manager"
+        "routename": ""
       },
     {
       "navheader": "Produktifitas",
-      "slug": ""
+      "routename": ""
     },
     {
       "url": "form/layout",
       "name": "Whiteboard",
       "icon": "box",
-      "slug": "form-layout"
+      "routename": ""
     },
     {
       "name": "Audio Relaxation",
       "icon": "headphones",
-      "slug": "",
+      "routename": "",
       "submenu": [
         {
           "url": "table/datatable/basic",
           "name": "Moodly",
           "icon": "circle",
-          "slug": "datatable-basic"
+          "routename": ""
         },
         {
           "url": "table/datatable/advance",
           "name": "Shhhnoise",
           "icon": "circle",
-          "slug": "datatable-advance"
+          "routename": ""
         },
         {
             "url": "table/datatable/advance",
             "name": "Poolsuite",
             "icon": "circle",
-            "slug": "datatable-advance"
+            "routename": ""
           }
       ]
     },
     {
         "name": "Pomodoro Timer",
         "icon": "clock",
-        "slug": "",
+        "routename": "",
         "submenu": [
           {
             "url": "table/datatable/basic",
             "name": "Pomofocus",
             "icon": "circle",
-            "slug": "datatable-basic"
+            "routename": ""
           },
           {
             "url": "table/datatable/advance",
             "name": "Lifeat.io",
             "icon": "circle",
-            "slug": "datatable-advance"
+            "routename": ""
           }
         ]
       },
       {
         "name": "Virtual Meeting",
         "icon": "airplay",
-        "slug": "",
+        "routename": "",
         "submenu": [
           {
             "url": "table/datatable/basic",
             "name": "Skyoffice",
             "icon": "circle",
-            "slug": "datatable-basic"
+            "routename": ""
           }
         ]
       },
       {
         "navheader": "Resources",
-        "slug": ""
+        "routename": ""
       },
       {
         "url": "form/layout",
         "name": "Journal",
         "icon": "book-open",
-        "slug": "form-layout"
+        "routename": ""
       },
       {
         "url": "form/layout",
         "name": "E-Book",
         "icon": "book",
-        "slug": "form-layout"
+        "routename": ""
       }
     ]
 }

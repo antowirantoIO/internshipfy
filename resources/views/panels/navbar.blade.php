@@ -342,7 +342,7 @@
             @endif
           </span>
           <span class="user-status">
-            Admin
+            Siswa
           </span>
         </div>
         <span class="avatar">

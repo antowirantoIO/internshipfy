@@ -103,8 +103,8 @@
             <div class="about-us">
                 <h5 class="canvas-widget-title">Tentang Kami</h5>
                 <p>
-                    Collegetivity adalah aplikasi yang membantu dunia perkuliahan mahasiswa mulai dari mengorganisasi
-                    pelajaran, tugas dan jadwal serta resources yang membantu para mahasiswa.
+                    Internshipfy adalah aplikasi yang membantu dunia perPKL dan Produktifitas an Pelajar mulai dari mengorganisasi
+                    pelajaran, tugas dan jadwal serta resources yang membantu para Pelajar.
                 </p>
             </div>
             <div class="contact-us">
@@ -116,8 +116,8 @@
                     </li>
                     <li>
                         <i class="far fa-envelope-open"></i>
-                        <a href="mailto:apps.collegetivity@gmail.com">apps.collegetivity@gmail.com</a>
-                        <a href="#" target="_blank">collegetivity.herokuapp.com</a>
+                        <a href="mailto:apps.Internshipfy@gmail.com">apps.Internshipfy@gmail.com</a>
+                        <a href="#" target="_blank">Internshipfy.herokuapp.com</a>
                     </li>
                     <li>
                         <i class="far fa-phone"></i>
