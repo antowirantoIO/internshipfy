@@ -142,6 +142,7 @@ $(function () {
           orderable: false,
           render: function (data, type, full, meta) {
             var $id = full['idencrypt'];
+            var $status = full['status'];
             return (
               '<div class="d-inline-flex">' +
               '<a class="pe-1 dropdown-toggle hide-arrow text-primary" data-bs-toggle="dropdown">' +
@@ -159,7 +160,7 @@ $(function () {
               'Delete</a>' +
               '</div>' +
               '</div>' +
-              '<a href="/activity/send/' + $id + '"class="item-edit send_activity">' +
+              '<a href="/activity/send/' + $id + '"class="item-edit">' +
               feather.icons['send'].toSvg({ class: 'font-small-4' }) +
               '</a>' +
               '<a href="/activity/edit/' + $id + '"style="padding-left: 10px;" class="item-edit">' +
@@ -290,3 +291,13 @@ $(function () {
     });
   }
 });
+
+
+function confirm(e){
+    e.preventDefault();
+    var x = confirm("Are you sure you want to delete this record?");
+    if (x)
+        console.log("yes");
+    else
+        console.log("no");
+}

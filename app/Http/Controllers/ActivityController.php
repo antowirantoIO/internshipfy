@@ -100,7 +100,9 @@ class ActivityController extends Controller
      */
     public function show(Activity $activity)
     {
-        //
+        $pageConfigs = ['pageHeader' => false];
+
+        return view('activity.show', compact('pageConfigs','activity'));
     }
 
     /**
@@ -111,7 +113,13 @@ class ActivityController extends Controller
      */
     public function edit(Activity $activity)
     {
-        //
+        $breadcrumbs = [
+            ['link' => "/", 'name' => "Home"],
+            ['link' => "javascript:void(0)", 'name' => "Akademik"],
+            ['link' => "javascript:void(0)", 'name' => "IDT"],
+            ['name' => "Edit IDT"]
+        ];
+        return view('activity.edit', compact('breadcrumbs','activity'));
     }
 
     /**
@@ -123,7 +131,18 @@ class ActivityController extends Controller
      */
     public function update(UpdateActivityRequest $request, Activity $activity)
     {
-        //
+        $activity->update([
+            'activity' => $request->activity_title,
+            'division' => $request->divisi,
+            'description' => $request->description,
+            'start_time' => $request->start_time,
+            'end_time' => $request->end_time,
+            'status' => $activity->status,
+            'is_review' => $activity->is_review,
+            'date' => $request->date,
+        ]);
+
+        return redirect()->route('activity')->with('success', 'Data berhasil diubah');
     }
 
     /**
@@ -134,6 +153,7 @@ class ActivityController extends Controller
      */
     public function destroy(Activity $activity)
     {
-        //
+        $activity->delete();
+        return redirect()->route('activity')->with('success', 'Data berhasil dihapus');
     }
 }

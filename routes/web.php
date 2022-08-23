@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AppsController;
+use App\Http\Controllers\ReportController;
 use App\Http\Controllers\ActivityController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ProductivityController;
@@ -51,10 +52,9 @@ Route::get('activity/create', [ActivityController::class, 'create'])->name('acti
 Route::post('activity/store', [ActivityController::class, 'store'])->name('activity.store');
 Route::get('activity/edit/{activity}', [ActivityController::class, 'edit'])->name('activity.edit');
 Route::post('activity/update/{activity}', [ActivityController::class, 'update'])->name('activity.update');
-Route::get('activity/delete/{activity}', [ActivityController::class, 'delete'])->name('activity.delete');
+Route::get('activity/destroy/{activity}', [ActivityController::class, 'destroy'])->name('activity.destroy');
 Route::get('activity/details/{activity}', [ActivityController::class, 'show'])->name('activity.details');
 Route::get('activity/send/{activity}', [ActivityController::class, 'send'])->name('activity.send');
-
 
 Route::get('productivity/whiteboard', [ProductivityController::class, 'whiteboard'])->name('productivity.whiteboard');
 Route::get('productivity/skyoffice', [ProductivityController::class, 'skyoffice'])->name('productivity.skyoffice');
@@ -65,3 +65,4 @@ Route::get('productivity/moodly', [ProductivityController::class, 'moodly'])->na
 Route::get('productivity/poolsuite', [ProductivityController::class, 'poolsuite'])->name('productivity.poolsuite');
 Route::get('productivity/shhhnoise', [ProductivityController::class, 'shhhnoise'])->name('productivity.shhhnoise');
 
+Route::get('report', [ReportController::class, 'index'])->name('report');
